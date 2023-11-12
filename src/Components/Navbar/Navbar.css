@@ -1,0 +1,46 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.peakPurchase {
+    cursor: pointer;
+}
+
+.parentDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    width: 96%;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: #e8e5e9 !important;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.childDiv1 {
+    display: flex;
+    align-items: center;
+}
+
+.childDiv1 .icon {
+    margin-right: 10px;
+}
+
+.childDiv1 h2 {
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .userSection {
+        display: flex;
+        align-items: center;
+    }
+}

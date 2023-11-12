@@ -1,0 +1,89 @@
+.firebase {
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+
+.jses6 {
+    border: 2px solid #adad1f;
+    border-radius: 20px;
+}
+
+.react {
+    border: 2px solid #087ea4;
+    border-radius: 20px;
+}
+
+.lightred {
+    border: 2px solid rgb(202, 78, 44);
+    border-radius: 20px;
+}
+
+.mainDiv {
+    background-color: #e8e5e9;
+    width: 96%;
+    margin: 30px auto;
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.bodyNested1 {
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+    margin: 15px 30px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.bodyNested1 img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.bodyNested2 {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+}
+
+.bodyNested2 h1 {
+    margin: 15px 0;
+}
+
+.bodyNested2 p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 0px;
+    word-wrap: break-word;
+}
+
+.bodyNested3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 0px;
+}
+
+.same-1 {
+    width: calc(50% - 20px);
+    max-width: 300px;
+    margin: 10px 5px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.same-1:hover {
+    transform: translateY(-5px);
+}
+
+.same-1 h2 {
+    margin: 0;
+    text-align: center;
+}
